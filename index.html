@@ -2,19 +2,20 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>내 블로그</title>
+  <title>SOHNHYUNWOO</title>
+
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
-      background: #0b1c2d;   /* 곤색 배경 */
+      background: #0b1c2d;
       margin: 0;
       padding: 0;
     }
 
     .container {
       max-width: 720px;
-      margin: 100px auto;   /* 바깥 곤색이 보이게 여백 확대 */
-      background: white;    /* 카드형 흰 배경 */
+      margin: 100px auto;
+      background: white;
       padding: 40px;
       border-radius: 8px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -30,8 +31,19 @@
       line-height: 1.6;
     }
 
+    /* 🔗 링크 스타일 */
+    a {
+      color: #0b1c2d;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .post {
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     .post h2 {
@@ -40,46 +52,49 @@
     }
 
     .date {
-      color: #000 !important;        /* 날짜 검은색 */
+      color: #000;
       font-size: 14px;
       margin-bottom: 12px;
     }
 
     .post img {
-  display: block;
-  width: 300px !important;
-  max-width: 300px !important;
-  height: auto !important;
-}
+      display: block;
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
+
 <body>
+
+  <!-- 상단 카드 -->
   <div class="container">
-  <h1>SOHNHYUNWOO!</h1>
-  <p>MUSIC & MOVIE NERD</p>
-
-  <p>
-    <a href="about.html" target="_blank">FAVORITE ANIMATION</a> ·
-    <a href="music.html" target="_blank">FAVORITE MUSIC</a> ·
-    <a href="movie.html" target="_blank">FAVORITE MOVIE</a>
-  </p>
-</div>
-
-<div class="container">
-  <div class="post">
-    <h2>HELLO ALL</h2>
-    <div class="date">2026-01-29</div>
-
-    <img src="15672_2267_0701.gif" alt="사진">
+    <h1>SOHNHYUNWOO!</h1>
+    <p>MUSIC & MOVIE NERD</p>
 
     <p>
-      여기에 제가 좋아하는 음악과 영화를 올려보려고 합니다 <br>
-      많은 관심과 사랑 부탁드립니다
+      <a href="animation.html" target="_blank">FAVORITE ANIMATION</a> ·
+      <a href="music.html" target="_blank">FAVORITE MUSIC</a> ·
+      <a href="movie.html" target="_blank">FAVORITE MOVIE</a>
     </p>
   </div>
-</div>
 
+  <!-- 첫 번째 글 카드 -->
+  <div class="container">
+    <div class="post">
+      <h2>HELLO ALL</h2>
+      <div class="date">2026-01-29</div>
+
+      <img src="15672_2267_0701.gif" alt="사진">
+
+      <p>
+        여기에 제가 좋아하는 음악과 영화를 올려보려고 합니다 <br>
+        많은 관심과 사랑 부탁드립니다
+      </p>
     </div>
   </div>
+
 </body>
 </html>
