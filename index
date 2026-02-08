@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>SOHNHYUNWOO</title>
 
+<style>
+body{
+  margin:0;
+  background:#000;
+  font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;
+}
+
+/* 중앙 카드 */
+.container{
+  width:420px;
+  background:#fff;
+  margin:200px auto;
+  padding:60px 40px;
+  text-align:center;
+  border-radius:12px;
+}
+
+/* 제목 */
+h1{
+  margin:0 0 40px 0;
+  font-size:32px;
+  letter-spacing:2px;
+}
+
+/* 메뉴 */
+.menu a{
+  display:block;
+  margin:20px 0;
+  font-size:18px;
+  color:#000;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.menu a:hover{
+  text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>SOHNHYUNWOO</h1>
+
+  <div class="menu">
+    <a href="movies.html" target="_blank">MOVIES</a>
+    <a href="music.html" target="_blank">MUSIC</a>
+  </div>
+</div>
+
+</body>
+</html>
